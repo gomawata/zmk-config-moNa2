@@ -49,10 +49,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q        &kp W         &kp E        &kp R               &kp T                                           &kp Y        &kp U  &kp I     &kp O     &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D        &kp F               &kp G                            &lt 2 TAB      &kp H        &kp J  &kp K     &kp L     &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C        &kp V               &kp B        &lt 4 HASH          &lt 1 SLASH    &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RIGHT_SHIFT COMMA
-&kp LEFT_COMMAND    &kp LEFT_ALT  &lt 2 SLASH  &mt LANGUAGE_2 TAB  &lt 1 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 3 ENTER                             &mt RIGHT_COMMAND PERIOD
+&mt ESCAPE Q        &kp W    &kp E         &kp R             &kp T                                           &kp Y        &kp U  &kp I     &kp O     &kp P
+&mt LEFT_CONTROL A  &kp S    &kp D         &kp F             &kp G                            &lt 5 TAB      &kp H        &kp J  &kp K     &kp L     &mt RIGHT_CONTROL MINUS
+&mt LEFT_SHIFT Z    &kp X    &kp C         &kp V             &kp B             &lt 4 HASH     &lt 1 SLASH    &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RIGHT_SHIFT UP
+&kp LEFT_COMMAND    &kp TAB  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &lt 2 LANGUAGE_1  &lt 1 SPACE    &kp BACKSPACE  &lt 3 ENTER                             &mt RIGHT_COMMAND DOWN
             >;
 
             sensor-bindings =
@@ -106,10 +106,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans    &trans    &kp UP_ARROW  &trans     &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT  &mkp MB1  &mkp MB2      &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &kp DOWN      &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                       &trans
+&trans  &trans  &trans  &trans  &trans                    &trans    &trans    &kp UP_ARROW  &trans    &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT  &mkp MB1  &mkp MB2      &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &mkp MB1  &mkp MB1      &mkp MB2  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                      &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
